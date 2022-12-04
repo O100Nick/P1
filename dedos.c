@@ -6,8 +6,8 @@ int fun_inicio(char j1[100], char j2[100]){
 }
 
 int main (int argc, char *argv[]){
-    char j1[100] = atof(argv[1]);
-    char j2[100] = atof(argv[2]);
+    char* j1 = argv[1];
+    char* j2 = argv[2];
    /* printf("J1?");
     scanf("%s", j1);
     printf("J2?");
