@@ -6,8 +6,30 @@ int fun_inicio(char j1[100], char j2[100]){
     printf("\t\b%s 2: %d, %d\n", j2, j2e, j2d);
 }
 
+/*int chico_esperto(){
+
+    printf("\ndeu aqui\n");
+    return 0;
+}
+
+int humano(){
+    printf("\nou aqui\n");
+    return 0;
+}
+
+
+int ao_calhas(){
+    printf("\ntalvez aqui\n");
+    return 0;
+}
+*/
+
+
+
 MAIN(){
     char* j1 = argv[1];
     char* j2 = argv[2];
     fun_inicio(j1, j2);
+    
+    
 }
