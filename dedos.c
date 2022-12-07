@@ -31,5 +31,35 @@ MAIN(){
     char* j2 = argv[2];
     fun_inicio(j1, j2);
     
-    
+    if (!strcmp(argv[1], "humano"))
+    {
+        humano();
+
+    }
+    else if (!strcmp(argv[1], "chico-esperto"))
+
+    {
+        chico_esperto();                                                     // verifica o valor de j1 para determinar a jogada ou estratégia
+    }
+
+    else if (!strcmp(argv[1], "ao-calhas"))
+    {
+        ao_calhas();
+    }
+
+    if (!strcmp(argv[2], "humano"))
+    {
+        humano();
+
+    }
+    else if (!strcmp(argv[2], "chico-esperto"))
+
+    {
+        chico_esperto();                                                     // verifica o valor de j2 para determinar a jogada ou estratégia
+    }
+
+    else if (!strcmp(argv[2], "ao-calhas"))
+    {
+        ao_calhas();
+    }
 }
