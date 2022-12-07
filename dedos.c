@@ -1,8 +1,8 @@
 
 int fun_inicio(char j1[100], char j2[100]){
     printf("Jogo dos dedos - %s vs %s\n", j1, j2);
-    printf("%s 1: 1, 1\n", j1);
-    printf("\t\b%s 2: 1, 1\n", j2);
+    printf("%s 1:\t 1, 1\n", j1);
+    printf("%s 2:\t 1, 1\n", j2);
 }
 
 MAIN(){
