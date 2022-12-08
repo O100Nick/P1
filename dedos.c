@@ -16,7 +16,19 @@ int humano1(int *j1e, int *j1d, int *j2e, int *j2d, char *j1,  char *j2){
         scanf("%s", jd);
         if(strcmp(jd,"ee") == 0){
             *j2e = *j1e + *j2e;
-            printf("j1e: %d\n\n", *j1e);
+            //printf("j1e: %d\n\n", *j1e);
+        }
+        if(strcmp(jd,"ed") == 0){
+            *j2d = *j1e + *j2d;
+            //printf("j1d: %d\n\n", *j1e);
+        }
+        if(strcmp(jd,"de") == 0){
+            *j2e = *j1d + *j2e;
+            //printf("j1d: %d\n\n", *j1d);
+        }
+        if(strcmp(jd,"dd") == 0){
+            *j2d = *j1d + *j2d;
+            //printf("j1d: %d\n\n", *j1d);
         }
         printf("%s 1:\t %d, %d\n", j1, *j1e, *j1d);
         printf("%s 2:\t %d, %d\n", j2, *j2e, *j2d);
