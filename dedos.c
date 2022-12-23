@@ -125,7 +125,7 @@ MAIN(){
     {
         chico_esperto();                                                     // verifica o valor de j2 para determinar a jogada ou estratégia
     }
-
+    
     else if (!strcmp(argv[2], "ao-calhas"))
     {
         ao_calhas();
