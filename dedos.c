@@ -82,6 +82,15 @@ int ao_calhas(){
 }
 */
 
+int verificar(char jd[100], int *j1e, int *j1d, int *j2e, int *j2d, char *j1,  char *j2){
+    if(strcmp(jd,"ee") == 0  || strcmp(jd,"ed") == 0  || strcmp(jd,"de") == 0 || strcmp(jd,"dd") == 0 || strcmp(jd, "=") == 0) {
+        return 1;
+    }
+    else
+    printf("Jogada inválida!\n");
+}
+
+
 
 
 MAIN(){
